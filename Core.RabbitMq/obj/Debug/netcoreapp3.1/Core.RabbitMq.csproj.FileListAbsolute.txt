@@ -1,0 +1,9 @@
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.deps.json
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.dll
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.csprojAssemblyReference.cache
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.dll
+C:\Users\Ricardo\source\repos\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.pdb

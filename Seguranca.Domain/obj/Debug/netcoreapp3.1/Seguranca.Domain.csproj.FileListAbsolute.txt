@@ -1,0 +1,12 @@
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.deps.json
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.dll
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.pdb
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.csprojAssemblyReference.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.dll
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.pdb
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.RabbitMq.dll
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.csproj.CopyComplete

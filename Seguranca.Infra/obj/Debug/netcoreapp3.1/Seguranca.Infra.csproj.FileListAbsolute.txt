@@ -1,0 +1,13 @@
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.exe
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.deps.json
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.runtimeconfig.json
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.runtimeconfig.dev.json
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.dll
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.pdb
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.csprojAssemblyReference.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.dll
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.pdb
+C:\Users\Ricardo\source\repos\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.genruntimeconfig.cache

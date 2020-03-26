@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Grp0rqJH8YJZAYEPXw20jmyrJ980ey3ahCrx1ZrufCb+NjxGEPnDB/g1gAFDv8w89HdBT1cM1V9yl2cGjsCTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ricardo\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Ricardo\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Ricardo\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
