@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {}
+    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj": {}
   },
   "projects": {
     "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {
+    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
         "projectName": "Core.Web",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj",
+        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\obj\\",
+        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

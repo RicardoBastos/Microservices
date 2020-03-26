@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GLGojE9a/QFGFsX/+7DlnqEeADwMk1u0P/CsftyjvCJYcXFHT4gBHi7xpiZOh4NAbLU6dKBXLvHZnolPt3yWVA==",
+  "dgSpecHash": "Xio+N+5/CxDktIIFsGT6KtICJPDEIx8IBdtsoCkLDXNsj0ZizB8EqAXqLZ02Tr9gPegmUjpNb5LIaFK6MJ/ifQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj",
+  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\easynetq.management.client\\1.2.0\\easynetq.management.client.1.2.0.nupkg.sha512",

@@ -8349,8 +8349,8 @@
     },
     "Core.Web/1.0.0": {
       "type": "project",
-      "path": "../Empresa.Core.Web/Core.Web.csproj",
-      "msbuildProject": "../Empresa.Core.Web/Core.Web.csproj"
+      "path": "../Core.Web/Core.Web.csproj",
+      "msbuildProject": "../Core.Web/Core.Web.csproj"
     },
     "RH.Domain/1.0.0": {
       "type": "project",
@@ -8382,11 +8382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
       "projectName": "Seguranca.Api",
-      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj",
+      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\obj\\",
+      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8405,8 +8405,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj"
+            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj": {
+              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj"
             },
             "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
               "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj"

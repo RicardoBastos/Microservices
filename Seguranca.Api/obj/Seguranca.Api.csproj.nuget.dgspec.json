@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj": {}
+    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj": {}
   },
   "projects": {
     "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {
+    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
         "projectName": "Core.Web",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj",
+        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\obj\\",
+        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -446,6 +446,77 @@
         }
       }
     },
+    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
+        "projectName": "Seguranca.Api",
+        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj": {
+                "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj"
+              },
+              "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -511,77 +582,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj",
-        "projectName": "Seguranca.Api",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\Seguranca.Api.csproj",
-        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {
-                "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj"
-              },
-              "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
