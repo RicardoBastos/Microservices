@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj": {}
+    "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj": {
+    "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
+        "projectUniqueName": "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
         "projectName": "Seguranca.Infra",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
+        "projectPath": "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Infra\\obj\\",
+        "outputPath": "C:\\workspace\\Empresa\\Seguranca.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

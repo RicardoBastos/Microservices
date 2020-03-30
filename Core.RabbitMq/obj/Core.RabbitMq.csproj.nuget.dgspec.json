@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {}
+    "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+    "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
+        "projectUniqueName": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
         "projectName": "Core.RabbitMq",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
+        "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\obj\\",
+        "outputPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

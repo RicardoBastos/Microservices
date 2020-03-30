@@ -932,11 +932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Domain\\RH.Domain.csproj",
+      "projectUniqueName": "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj",
       "projectName": "RH.Domain",
-      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Domain\\RH.Domain.csproj",
+      "projectPath": "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Domain\\obj\\",
+      "outputPath": "C:\\workspace\\Empresa\\RH.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -955,14 +955,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj"
+            "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj"
             },
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj"
+            "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj"
             },
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
+            "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
             }
           }
         }

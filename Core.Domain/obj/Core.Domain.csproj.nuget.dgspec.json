@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {}
+    "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {
+    "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj",
+        "projectUniqueName": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj",
+        "projectPath": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\obj\\",
+        "outputPath": "C:\\workspace\\Empresa\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

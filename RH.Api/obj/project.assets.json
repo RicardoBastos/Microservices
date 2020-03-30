@@ -9617,8 +9617,8 @@
     },
     "Core.Web/1.0.0": {
       "type": "project",
-      "path": "../Empresa.Core.Web/Core.Web.csproj",
-      "msbuildProject": "../Empresa.Core.Web/Core.Web.csproj"
+      "path": "../Core.Web/Core.Web.csproj",
+      "msbuildProject": "../Core.Web/Core.Web.csproj"
     },
     "RH.Domain/1.0.0": {
       "type": "project",
@@ -9648,11 +9648,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Api\\RH.Api.csproj",
+      "projectUniqueName": "C:\\workspace\\Empresa\\RH.Api\\RH.Api.csproj",
       "projectName": "RH.Api",
-      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Api\\RH.Api.csproj",
+      "projectPath": "C:\\workspace\\Empresa\\RH.Api\\RH.Api.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Api\\obj\\",
+      "outputPath": "C:\\workspace\\Empresa\\RH.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9671,17 +9671,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Domain\\Core.Domain.csproj"
+            "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj"
             },
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
+            "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
             },
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Empresa.Core.Web\\Core.Web.csproj"
+            "C:\\workspace\\Empresa\\Core.Web\\Core.Web.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.Web\\Core.Web.csproj"
             },
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Domain\\RH.Domain.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Domain\\RH.Domain.csproj"
+            "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj"
             }
           }
         }

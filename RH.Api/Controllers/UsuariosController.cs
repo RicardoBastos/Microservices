@@ -7,7 +7,7 @@ using RH.Domain.Usuario.Commands;
 
 namespace RH.Api.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/rh/[controller]")]
     public class UsuariosController : ApiController
     {
         private readonly IMediatorHandler Bus;
@@ -28,6 +28,12 @@ namespace RH.Api.Controllers
         {
             Bus.EnviarCommand(usuario);
             return Response(usuario);
+        }
+
+        [HttpGet, Route("")]
+        public ActionResult<string> Get()
+        {
+            return "Usuarios RH";
         }
     }
 }

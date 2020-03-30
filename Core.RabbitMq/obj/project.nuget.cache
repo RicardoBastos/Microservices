@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7dXiXNlXpwbJCQ6Zy87HPKL0irV7yRoFcer1AUA1yax6yT1nwL6GkAzOlEST0kjFIjzmfYy3TW2So9ZcMVw3A==",
+  "dgSpecHash": "xj5caqwCc1msDqjYq4HH1ZJUvCETttqaLqwOrvc+VKf+rgJ3gHcFJSfO60y2/ORRCNQF6zGSAd3NtqBwytvVmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
+  "projectFilePath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

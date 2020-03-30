@@ -1757,11 +1757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
+      "projectUniqueName": "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
       "projectName": "Seguranca.Domain",
-      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
+      "projectPath": "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\obj\\",
+      "outputPath": "C:\\workspace\\Empresa\\Seguranca.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1780,8 +1780,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
+            "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
             }
           }
         }

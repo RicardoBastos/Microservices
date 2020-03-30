@@ -1,0 +1,29 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:52796"
+  },
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/rh/usuarios",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44317
+        }
+      ],
+      "UpstreamPathTemplate": "/rh/usuarios"
+    },
+    {
+      "DownstreamPathTemplate": "/api/seguranca/usuarios",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44318
+        }
+      ],
+      "UpstreamPathTemplate": "/seguranca/usuarios"
+    }
+  ]
+}

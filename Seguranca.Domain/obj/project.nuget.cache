@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r+6z6lJgxNYS9XuFA0ibKupsCbFx1uuwciNE9/Ca8/d3UzMQuiziarer46+g0NGGkdIWeUEMJ0c93zWdpBOmxw==",
+  "dgSpecHash": "kbDAfOZ5W3vPCQoN0ckvL+5w2AOZOOgrVkOSowg0tAVdC0Ct1ZBARp9JU5vZwWzxL/yTBsiNg4oOJoKzfUI/oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
+  "projectFilePath": "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\easynetq.management.client\\1.2.0\\easynetq.management.client.1.2.0.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

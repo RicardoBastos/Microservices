@@ -8250,11 +8250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
+      "projectUniqueName": "C:\\workspace\\Empresa\\Core.Web\\Core.Web.csproj",
       "projectName": "Core.Web",
-      "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
+      "projectPath": "C:\\workspace\\Empresa\\Core.Web\\Core.Web.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\obj\\",
+      "outputPath": "C:\\workspace\\Empresa\\Core.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8273,8 +8273,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Infra\\RH.Infra.csproj": {
-              "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\RH.Infra\\RH.Infra.csproj"
+            "C:\\workspace\\Empresa\\RH.Infra\\RH.Infra.csproj": {
+              "projectPath": "C:\\workspace\\Empresa\\RH.Infra\\RH.Infra.csproj"
             }
           }
         }

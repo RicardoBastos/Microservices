@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ysn7Z7xf4JHMLkPLX4UCGlgNRjM0U3fSiMrZN3bZ3YkMaSM9KWbrAGwM56K47JYFIEOdAwVoV/XGei/djiZz5Q==",
+  "dgSpecHash": "yN0IvERyoT6tGS6FcMotOycT2+EqsIiepDEqF894i7XWTHEAirXIc3bFNo1sPhaz6ULtc5Ge5WthF5ylcarXMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Web\\Core.Web.csproj",
+  "projectFilePath": "C:\\workspace\\Empresa\\Core.Web\\Core.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\Ricardo\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

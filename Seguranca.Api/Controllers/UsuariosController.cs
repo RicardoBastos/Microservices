@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Seguranca.Api.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/seguranca/[controller]")]
     public class UsuariosController : ApiController
     {
         private readonly IMediatorHandler Bus;
@@ -18,6 +18,12 @@ namespace Seguranca.Api.Controllers
         {
             Bus = bus;
             
+        }
+
+        [HttpGet, Route("")]
+        public ActionResult<string> Get()
+        {
+            return "Usuarios Segurança";
         }
 
     }

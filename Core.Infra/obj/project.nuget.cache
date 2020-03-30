@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgvJBo/kB4XBsRWBTR9Bc89vM8MQEQCi38WpytjV9CbgHSvFDMHQmukLhJDwCKHtzm8+HEBXuVTf6jg2u6PjsQ==",
+  "dgSpecHash": "r+Qelwm89G7YEVIKhHgPRYvoLo7Lb5Yb/uf1dNnhI3HXHodlSESD6WE8uRVLwv3dsVKrpews/0ar4u2B47upTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj",
+  "projectFilePath": "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

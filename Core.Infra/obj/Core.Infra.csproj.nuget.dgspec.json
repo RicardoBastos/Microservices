@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj": {}
+    "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj": {
+    "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj",
+        "projectUniqueName": "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj",
         "projectName": "Core.Infra",
-        "projectPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\Core.Infra.csproj",
+        "projectPath": "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricardo\\source\\repos\\Empresa\\Core.Infra\\obj\\",
+        "outputPath": "C:\\workspace\\Empresa\\Core.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
