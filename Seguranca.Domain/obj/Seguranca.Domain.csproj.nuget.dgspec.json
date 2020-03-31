@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {}
+    "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+    "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
         "projectName": "Core.RabbitMq",
-        "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
-        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,24 +77,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
+    "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
         "projectName": "Seguranca.Domain",
-        "projectPath": "C:\\workspace\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
-        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\Empresa\\Seguranca.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Domain\\Seguranca.Domain.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,8 +107,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
-                "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
+              "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+                "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
               }
             }
           }
@@ -150,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

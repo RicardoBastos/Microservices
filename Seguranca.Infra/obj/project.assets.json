@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Ricardo\\.nuget\\packages\\": {},
+    "C:\\Users\\ricar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
       "projectName": "Seguranca.Infra",
-      "projectPath": "C:\\workspace\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
-      "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\Empresa\\Seguranca.Infra\\obj\\",
+      "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Infra\\Seguranca.Infra.csproj",
+      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

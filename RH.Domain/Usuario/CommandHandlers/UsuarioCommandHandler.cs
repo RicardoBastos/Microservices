@@ -56,7 +56,7 @@ namespace RH.Domain.Usuario.CommandHandlers
                 Bus.EnviarEvent(msg);
 
                 //Banco de Leitura
-                _usuarioRepository.InserirUsuarioRead(usuario);
+                //_usuarioRepository.InserirUsuarioRead(usuario);
 
                 //Enviar Para área de segurança
                 _eventBus.Publish(msg, exchange: "Empresa.RHEvent", routingKey: "empresa.rhevent.novousuario");

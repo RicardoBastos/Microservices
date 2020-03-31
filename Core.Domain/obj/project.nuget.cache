@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y8woBCyZkRuos2aNym/5mBihX6P7SLDQ5xHLVZ1eCZXqcFt08gqb0xXUv7Xo3hcDRN1SQy9k2Jfv+v1uBsXmRw==",
+  "dgSpecHash": "gHEhN7t4cmYkCCm8YRqsIsQC8/9H/Ov5rHlmSbV4Rz1Lm9VBt1ED31CEDc5IvEpaSAUcqQ73pyvlK9PxQb02jg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Domain\\Core.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ricardo\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Ricardo\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
-    "C:\\Users\\Ricardo\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

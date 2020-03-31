@@ -1,10 +1,17 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:52796"
+    "BaseUrl": "https://localhost:44316",
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "ServiceDiscoveryProvider": {
+      "Type": "AppConfiguration",
+      "PollingIntervalSeconds": 10000
+    }
   },
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/rh/usuarios",
+      "DownstreamPathTemplate": "/rh/{everything}",
+      "ServiceName": "rh",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -12,10 +19,12 @@
           "Port": 44317
         }
       ],
-      "UpstreamPathTemplate": "/rh/usuarios"
+      "UpstreamPathTemplate": "/rh/{everything}",
+      "SwaggerKey": "rh"
     },
     {
-      "DownstreamPathTemplate": "/api/seguranca/usuarios",
+      "DownstreamPathTemplate": "/seguranca/{everything}",
+      "ServiceName": "seguranca",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -23,7 +32,31 @@
           "Port": 44318
         }
       ],
-      "UpstreamPathTemplate": "/seguranca/usuarios"
+      "UpstreamPathTemplate": "/seguranca/{everything}",
+      "SwaggerKey": "seguranca"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "rh",
+      "Config": [
+        {
+          "Name": "RH API",
+          "Version": "v1",
+          "Url": "https://localhost:44317/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "seguranca",
+      "Config": [
+        {
+          "Name": "Seguranca API",
+          "Version": "v1",
+          "Url": "https://localhost:44318/swagger/v1/swagger.json"
+        }
+      ]
     }
   ]
 }
+   

@@ -2,6 +2,7 @@
 using Core.Domain.Notifications;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -15,8 +16,8 @@ namespace RH.Api.Controllers
         protected ApiController(INotificationHandler<DomainNotification> notifications,
                                 IMediatorHandler mediator)
         {
-            _notifications = (DomainNotificationHandler)notifications;
-            _mediator = mediator;
+            _notifications = (DomainNotificationHandler)notifications ?? throw new ArgumentNullException(nameof(DomainNotificationHandler));
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(IMediatorHandler));
         }
 
         protected IEnumerable<DomainNotification> Notifications => _notifications.GetNotifications();

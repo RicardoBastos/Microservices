@@ -11,6 +11,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Ocelot.Middleware;
 using Ocelot.DependencyInjection;
+using System.IO;
+using Microsoft.AspNetCore.Http;
+using OcelotSwagger.Extensions;
+using OcelotSwagger.Configuration;
+using MMLib.Ocelot.Provider.AppConfiguration;
 
 namespace Gateway.Api
 {
@@ -27,7 +32,16 @@ namespace Gateway.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddOcelot(Configuration);
+
+
+            services.AddOcelot()
+                  .AddAppConfiguration();
+            services.AddSwaggerForOcelot(Configuration);
+
+
+            // services.AddConsul();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +61,17 @@ namespace Gateway.Api
                 endpoints.MapControllers();
             });
 
-            await app.UseOcelot();
+            app.UseSwaggerForOcelotUI(Configuration, opt =>
+            {
+                opt.DownstreamSwaggerHeaders = new[]
+                {
+                        new KeyValuePair<string, string>("Key", "Value"),
+                        new KeyValuePair<string, string>("Key2", "Value2"),
+                    };
+            })
+                  .UseOcelot()
+                  .Wait();
+
         }
     }
 }

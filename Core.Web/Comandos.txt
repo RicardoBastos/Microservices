@@ -1,6 +1,10 @@
 docker pull mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-18.04
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ricardo@123" -p 1401:1433 --name sql1 -d mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-18.04
 
-dotnet tool install --global dotnet-ef
+docker pull rabbitmq
+docker run -d --hostname localhost --name rabbitr -p 15672:15672 -p 5672:5672 rabbitmq:3
 
-mongodb
+docker run -d -p 15672:15672 -p 5672:5672 --name rabbit-empresa rabbitmq:3-management
+docker pull rabbitmq:3-management
+
+dotnet tool install --global dotnet-ef

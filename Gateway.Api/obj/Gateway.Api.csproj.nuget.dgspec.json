@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\Empresa\\Gateway.Api\\Gateway.Api.csproj": {}
+    "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\Gateway.Api.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\Empresa\\Gateway.Api\\Gateway.Api.csproj": {
+    "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\Gateway.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\Empresa\\Gateway.Api\\Gateway.Api.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\Gateway.Api.csproj",
         "projectName": "Gateway.Api",
-        "projectPath": "C:\\workspace\\Empresa\\Gateway.Api\\Gateway.Api.csproj",
-        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\Empresa\\Gateway.Api\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\Gateway.Api.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,9 +41,25 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MMLib.Ocelot.Provider.AppConfiguration": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MMLib.SwaggerForOcelot": {
+              "target": "Package",
+              "version": "[1.10.5, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[14.1.0, )"
+            },
+            "OcelotSwagger": {
+              "target": "Package",
+              "version": "[0.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -64,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

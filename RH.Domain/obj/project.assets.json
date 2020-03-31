@@ -926,23 +926,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ricardo\\.nuget\\packages\\": {},
+    "C:\\Users\\ricar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\RH.Domain\\RH.Domain.csproj",
       "projectName": "RH.Domain",
-      "projectPath": "C:\\workspace\\Empresa\\RH.Domain\\RH.Domain.csproj",
-      "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\Empresa\\RH.Domain\\obj\\",
+      "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\RH.Domain\\RH.Domain.csproj",
+      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\RH.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -955,14 +955,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "C:\\workspace\\Empresa\\Core.Domain\\Core.Domain.csproj"
+            "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Domain\\Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Domain\\Core.Domain.csproj"
             },
-            "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj": {
-              "projectPath": "C:\\workspace\\Empresa\\Core.Infra\\Core.Infra.csproj"
+            "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Infra\\Core.Infra.csproj": {
+              "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Infra\\Core.Infra.csproj"
             },
-            "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
-              "projectPath": "C:\\workspace\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
+            "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
+              "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
             }
           }
         }
@@ -1004,7 +1004,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

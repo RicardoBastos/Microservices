@@ -4,10 +4,11 @@ using Core.RabbitMq;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using RH.Domain.Usuario.Commands;
+using System;
 
 namespace RH.Api.Controllers
 {
-    [Route("api/rh/[controller]")]
+    [Route("rh/[controller]")]
     public class UsuariosController : ApiController
     {
         private readonly IMediatorHandler Bus;
@@ -17,8 +18,8 @@ namespace RH.Api.Controllers
             INotificationHandler<DomainNotification> notifications,
             IMediatorHandler bus):base(notifications,bus)
         {
-            Bus = bus;
-       
+            Bus = bus ?? throw new ArgumentNullException(nameof(IMediatorHandler));
+
         }
 
 
