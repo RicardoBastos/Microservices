@@ -313,7 +313,6 @@ C:\workspace\Empresa\RH.Api\obj\Debug\netcoreapp3.1\staticwebassets\RH.Api.Stati
 C:\workspace\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.dll
 C:\workspace\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.pdb
 C:\workspace\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.genruntimeconfig.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\web.config
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

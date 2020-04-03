@@ -19,7 +19,6 @@ C:\workspace\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.deps.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
-C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.csprojAssemblyReference.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.csproj.CoreCompileInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.AssemblyInfoInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.RabbitMq\obj\Debug\netcoreapp3.1\Core.RabbitMq.AssemblyInfo.cs

@@ -30,7 +30,6 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.runtimeconfig.dev.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Infra.pdb
-C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.csprojAssemblyReference.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.csproj.CoreCompileInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.AssemblyInfoInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\obj\Debug\netcoreapp3.1\Seguranca.Infra.AssemblyInfo.cs

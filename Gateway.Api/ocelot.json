@@ -1,8 +1,8 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44316",
-    "RequestIdKey": "OcRequestId",
-    "AdministrationPath": "/administration",
+    "BaseUrl": "https://localhost:5001",
+    //"RequestIdKey": "OcRequestId",
+    //"AdministrationPath": "/administration",
     "ServiceDiscoveryProvider": {
       "Type": "AppConfiguration",
       "PollingIntervalSeconds": 10000
@@ -16,11 +16,26 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44317
+          "Port": 44300
         }
       ],
       "UpstreamPathTemplate": "/rh/{everything}",
-      "SwaggerKey": "rh"
+      "SwaggerKey": "rh",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [],
+      //  "EnableRateLimiting": true,
+      //  "Period": "1s",
+      //  "PeriodTimespan": 1,
+      //  "Limit": 1
+      //},
+      //"FileCacheOptions": {
+      //  "TtlSeconds": 15,
+      //  "Region": "rhcaching"
+      //}
     },
     {
       "DownstreamPathTemplate": "/seguranca/{everything}",
@@ -33,7 +48,22 @@
         }
       ],
       "UpstreamPathTemplate": "/seguranca/{everything}",
-      "SwaggerKey": "seguranca"
+      "SwaggerKey": "seguranca",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [],
+      //  "EnableRateLimiting": true,
+      //  "Period": "1s",
+      //  "PeriodTimespan": 1,
+      //  "Limit": 1
+      //},
+      //"FileCacheOptions": {
+      //  "TtlSeconds": 15,
+      //  "Region": "segurancacaching"
+      //}
     }
   ],
   "SwaggerEndPoints": [
@@ -43,7 +73,7 @@
         {
           "Name": "RH API",
           "Version": "v1",
-          "Url": "https://localhost:44317/swagger/v1/swagger.json"
+          "Url": "https://localhost:44300/swagger/v1/swagger.json"
         }
       ]
     },

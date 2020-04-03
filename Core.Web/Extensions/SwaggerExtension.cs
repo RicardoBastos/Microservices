@@ -9,8 +9,12 @@ namespace Core.Web.Extensions
     {
         public static void AddSwaggerExtension(this IServiceCollection services, string title,string version)
         {
+
+           
+
             services.AddSwaggerGen(c =>
             {
+             
                 c.SwaggerDoc("v1", new OpenApiInfo { 
                     Title = title, 
                     Version = version,

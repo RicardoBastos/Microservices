@@ -2,13 +2,9 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
-    "iis": {
-      "applicationUrl": "http://localhost/RH.Api",
-      "sslPort": 0
-    },
     "iisExpress": {
       "applicationUrl": "http://localhost:52797",
-      "sslPort": 44317
+      "sslPort": 44300
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -21,14 +17,12 @@
       }
     },
     "RH.Api": {
-      "commandName": "IISExpress",
+      "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "usuarios",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "sqlDebugging": false,
-      "nativeDebugging": false
+      }
     }
   }
 }
