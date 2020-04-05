@@ -27,6 +27,7 @@ namespace Seguranca.Infra.Ioc
 
             // Domain - Events
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
+            //services.AddScoped<INotificationHandler<UsuarioNovoEvent>, NovoUsuarioEventHandler>();
 
             // Domain - Commands
             services.AddScoped<IRequestHandler<UsuarioNovoCommand, bool>, UsuarioCommandHandler>();

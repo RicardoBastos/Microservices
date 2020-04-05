@@ -10,8 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core.RabbitMq\Core.RabbitMq.csproj" />
     <ProjectReference Include="..\Core.Web\Core.Web.csproj" />
     <ProjectReference Include="..\Seguranca.Domain\Seguranca.Domain.csproj" />
+    <ProjectReference Include="..\Seguranca.Infra\Seguranca.Infra.csproj" />
   </ItemGroup>
 
 

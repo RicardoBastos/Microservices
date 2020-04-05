@@ -24,10 +24,12 @@
     ".NETCoreApp,Version=v3.1": {
       "Seguranca.Api/1.0.0": {
         "dependencies": {
+          "Core.RabbitMq": "1.0.0",
           "Core.Web": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
           "Seguranca.Domain": "1.0.0",
+          "Seguranca.Infra": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -925,30 +927,30 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/3.1.2": {
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.3": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.3",
-          "Microsoft.Extensions.FileProviders.Physical": "3.1.2"
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Json/3.1.2": {
+      "Microsoft.Extensions.Configuration.Json/3.1.3": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.3",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.2"
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
           }
         },
         "compile": {
@@ -994,26 +996,26 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/3.1.2": {
+      "Microsoft.Extensions.FileProviders.Physical/3.1.3": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "3.1.3",
-          "Microsoft.Extensions.FileSystemGlobbing": "3.1.2"
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/3.1.2": {
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
           }
         },
         "compile": {
@@ -2723,8 +2725,8 @@
           "Microsoft.EntityFrameworkCore": "3.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
           "Microsoft.Extensions.Configuration": "3.1.3",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.2",
-          "Microsoft.Extensions.Configuration.Json": "3.1.2",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.3",
+          "Microsoft.Extensions.Configuration.Json": "3.1.3",
           "MongoDB.Driver": "2.10.2",
           "RH.Domain": "1.0.0"
         },
@@ -2749,6 +2751,24 @@
         },
         "compile": {
           "Seguranca.Domain.dll": {}
+        }
+      },
+      "Seguranca.Infra/1.0.0": {
+        "dependencies": {
+          "Core.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.Extensions.Configuration": "3.1.3",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.3",
+          "Microsoft.Extensions.Configuration.Json": "3.1.3",
+          "MongoDB.Driver": "2.10.2",
+          "Seguranca.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Seguranca.Infra.dll": {}
+        },
+        "compile": {
+          "Seguranca.Infra.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4608,19 +4628,19 @@
       "path": "microsoft.extensions.configuration.binder/3.1.3",
       "hashPath": "microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/3.1.2": {
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-itZcJUf2IRa4e4NFTQgR4JUmwndEU5O0isQsKkZXHiHXwExgLkX9D09R7YIK272w3jpKaYw/DejntAC7zzsNWg==",
-      "path": "microsoft.extensions.configuration.fileextensions/3.1.2",
-      "hashPath": "microsoft.extensions.configuration.fileextensions.3.1.2.nupkg.sha512"
+      "sha512": "sha512-elAAhku4duLMFnoambYY3VUp6AWHkMYu1j9ctWQkSfsCPwx9FlQ8luk4LS5oMQmOT0eY8E0zWG8jZM60GXIyNA==",
+      "path": "microsoft.extensions.configuration.fileextensions/3.1.3",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.3.1.3.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Json/3.1.2": {
+    "Microsoft.Extensions.Configuration.Json/3.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AQ64UCqGXP2UTfkVE1fdUJdlKEEiFZIOXpt6lkIz+tunuJWh1m+/eIppY+ITgjoKsfFc2W8ldNonIntHx5ybNQ==",
-      "path": "microsoft.extensions.configuration.json/3.1.2",
-      "hashPath": "microsoft.extensions.configuration.json.3.1.2.nupkg.sha512"
+      "sha512": "sha512-E26XwzU3Y+J4etuXwX0ScOxNwuBdifU/BGM0nI/GwY7SjvVkkBQDgYphUcujaiAZWJ7h7yh1KL9tBAMPgGthqg==",
+      "path": "microsoft.extensions.configuration.json/3.1.3",
+      "hashPath": "microsoft.extensions.configuration.json.3.1.3.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/3.1.3": {
       "type": "package",
@@ -4643,19 +4663,19 @@
       "path": "microsoft.extensions.fileproviders.abstractions/3.1.3",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Physical/3.1.2": {
+    "Microsoft.Extensions.FileProviders.Physical/3.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lAbbwKapBfwGLVcfNL7TG4o7zRqLOiVY7/ylUKgnh2D9TotJ2riXzNTmQldksIYrmcJcNrq/WBalTpawSSAkJg==",
-      "path": "microsoft.extensions.fileproviders.physical/3.1.2",
-      "hashPath": "microsoft.extensions.fileproviders.physical.3.1.2.nupkg.sha512"
+      "sha512": "sha512-CvCLmVfb90Wkm99Ho6izWoZ9WaY/SQbou0LSEvBQxKk0IPAWKfUw29QLqlszIkXp81VR1BwdprlGKFdFfZpZFA==",
+      "path": "microsoft.extensions.fileproviders.physical/3.1.3",
+      "hashPath": "microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileSystemGlobbing/3.1.2": {
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/EgWQ25z1RZgzAT6JSOJiuQ/PFm53Kl1H3kzAgs5JIh52UaD1RmxW1znv5VbQlTfgLzRSeQZ3aPPA9SNakuSzw==",
-      "path": "microsoft.extensions.filesystemglobbing/3.1.2",
-      "hashPath": "microsoft.extensions.filesystemglobbing.3.1.2.nupkg.sha512"
+      "sha512": "sha512-bAmmKRNZM7n7cEhmdywgfvd53MF8pUL9u6orliWvJmI3tQCuDaJalNr4z9FfMu/e6Baw5NTSV+ZsWdWIiOi1Rw==",
+      "path": "microsoft.extensions.filesystemglobbing/3.1.3",
+      "hashPath": "microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Hosting.Abstractions/3.1.3": {
       "type": "package",
@@ -5738,6 +5758,11 @@
       "sha512": ""
     },
     "Seguranca.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Seguranca.Infra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

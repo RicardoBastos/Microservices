@@ -46,7 +46,7 @@ namespace Seguranca.Infra.Repository.Dapper
             query.AppendLine(@"select
                                    u.id,
                                    u.nome,
-                                   u.email,
+                                   u.email
                                from usuario u where 1=1");
 
 

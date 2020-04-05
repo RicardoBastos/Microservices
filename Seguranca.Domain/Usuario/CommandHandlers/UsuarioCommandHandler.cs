@@ -38,7 +38,7 @@ namespace Seguranca.Domain.Usuario.CommandHandlers
                 return Task.FromResult(false);
             }
 
-            var usuario = new Usuario(Guid.NewGuid(), message.Nome, message.Email);
+            var usuario = new Usuario(message.Id, message.Nome, message.Email);
 
             if (_usuarioRepository.BuscarEmail(usuario.Email) != null)
             {
@@ -48,19 +48,7 @@ namespace Seguranca.Domain.Usuario.CommandHandlers
 
             _usuarioRepository.Add(usuario);
 
-            if (Commit())
-            {
-                var msg = new UsuarioNovoEvent(usuario.Id, usuario.Nome, usuario.Email);
-
-                //Log 
-                //Bus.EnviarEvent(msg);
-
-                //Banco de Leitura
-                //_usuarioRepository.InserirUsuarioRead(usuario);
-
-                //Enviar Para área de segurança
-               // _eventBus.Publish(msg, exchange: "Empresa.RHEvent", routingKey: "empresa.rhevent.novousuario");
-            }
+            Commit();
 
             return Task.FromResult(true);
         }

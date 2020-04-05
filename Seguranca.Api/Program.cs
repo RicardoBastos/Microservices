@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Seguranca.Api;
 
-namespace Seguranca
+namespace Seguranca.Api
 {
     public class Program
     {

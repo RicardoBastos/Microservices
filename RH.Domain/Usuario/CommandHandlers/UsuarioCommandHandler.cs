@@ -50,7 +50,7 @@ namespace RH.Domain.Usuario.CommandHandlers
 
             if (Commit())
             {
-                var msg = new UsuarioNovoEvent(usuario.Id, usuario.Nome, usuario.Salario, usuario.Email);
+                var msg = new UsuarioNovoEvent(usuario.Id, usuario.Nome, usuario.Email);
 
                 //Log 
                 Bus.EnviarEvent(msg);

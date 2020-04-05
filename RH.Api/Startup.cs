@@ -3,10 +3,12 @@ using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RH.Infra.Context;
+using RH.Infra.Ioc;
 using System;
 
 namespace RH.Api
@@ -34,7 +36,13 @@ namespace RH.Api
             //MongoDbContext.IsSSL = Convert.ToBoolean(this.Configuration.GetSection("MongoConnection:IsSSL").Value);
 
 
-            services.AddDatabaseSetup(Configuration);
+            services.AddDbContext<RHContext>(options =>
+                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<EventStoreSqlContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
             services.AddMediatR(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerExtension("RH","1.0");
@@ -43,7 +51,8 @@ namespace RH.Api
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             // .NET Native DI Abstraction
-            services.AddDependencyInjectionSetup();
+            //services.AddDependencyInjectionSetup();
+            NativeInjectorBootStrapper.RegisterServices(services);
 
             services.AddRabbitMQEventBus("amqp://localhost", eventBusOptionAction: eventBusOption =>
             {

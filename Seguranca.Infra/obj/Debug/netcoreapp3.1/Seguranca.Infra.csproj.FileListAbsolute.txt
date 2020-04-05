@@ -6,12 +6,8 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.Domain.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.RabbitMq.dll
-C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\RH.Domain.dll
-C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\RH.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Domain.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.Domain.pdb
-C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\RH.Domain.pdb
-C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\RH.Infra.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Seguranca.Domain.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.Infra.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Infra\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
