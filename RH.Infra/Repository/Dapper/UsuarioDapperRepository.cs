@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace RH.Infra.Repository.Dapper
 {
-    public class UsuarioDapperRepository : DapperRepositoryBase<Usuario>, IProdutoDapperRepository
+    public class UsuarioDapperRepository : DapperRepositoryBase<Usuario>, IUsuarioDapperRepository
     {
         public UsuarioDapperRepository(IConfiguration configuration) : base(configuration) { }
         public Result result = new Result();

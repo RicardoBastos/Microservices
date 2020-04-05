@@ -45,10 +45,6 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
-            "Microsoft.AspNetCore.App": {
-              "target": "Package",
-              "version": "[2.2.8, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"

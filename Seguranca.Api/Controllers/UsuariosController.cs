@@ -1,8 +1,12 @@
-﻿using Core.Domain.Bus;
+﻿using Core.Domain;
+using Core.Domain.Bus;
 using Core.Domain.Notifications;
 using Core.RabbitMq;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Seguranca.Domain.Usuario.Interface;
+using System;
+using System.Threading.Tasks;
 
 namespace Seguranca.Api.Controllers
 {
@@ -10,20 +14,25 @@ namespace Seguranca.Api.Controllers
     public class UsuariosController : ApiController
     {
         private readonly IMediatorHandler Bus;
+        private readonly IUsuarioDapperRepository _usuarioDapperRepository;
 
 
         public UsuariosController(IRabbitMQEventBus eventBus,
+             IUsuarioDapperRepository usuarioDapperRepository,
             INotificationHandler<DomainNotification> notifications,
             IMediatorHandler bus):base(notifications,bus)
         {
             Bus = bus;
-            
+            _usuarioDapperRepository = usuarioDapperRepository ?? throw new ArgumentNullException(nameof(IUsuarioDapperRepository));
+
+
         }
 
         [HttpGet, Route("")]
-        public ActionResult<string> Get()
+        public async Task<Result> Get([FromQuery]string nome, [FromQuery]Paging paginacao)
         {
-            return "Usuarios Segurança";
+            var objRetorno = TratarQuery(await _usuarioDapperRepository.GetPaging(nome, paginacao));
+            return objRetorno;
         }
 
     }

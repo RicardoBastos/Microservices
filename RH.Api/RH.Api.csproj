@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
     <ProjectReference Include="..\Core.RabbitMq\Core.RabbitMq.csproj" />
     <ProjectReference Include="..\Core.Web\Core.Web.csproj" />
     <ProjectReference Include="..\RH.Domain\RH.Domain.csproj" />

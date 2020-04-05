@@ -194,6 +194,7 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\bin\Debug\netcoreapp3.1\
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.csprojAssemblyReference.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.csproj.CoreCompileInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.AssemblyInfoInputs.cache
@@ -205,4 +206,3 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.genruntimeconfig.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\IdentityServer4\obj\Debug\netcoreapp3.1\IdentityServer.csprojAssemblyReference.cache

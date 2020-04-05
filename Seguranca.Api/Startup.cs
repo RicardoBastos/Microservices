@@ -41,7 +41,7 @@ namespace Seguranca
 
             services.AddRabbitMQEventBus("amqp://localhost", eventBusOptionAction: eventBusOption =>
             {
-                eventBusOption.ClientProvidedAssembly<Seguranca.Domain.Subscribes.NovoUsuarioEventHandler>();
+                eventBusOption.ClientProvidedAssembly<Seguranca.Domain.Usuario.Subscribes.NovoUsuarioEventHandler>();
                 eventBusOption.EnableRetryOnFailure(true, 5000, TimeSpan.FromSeconds(30));
                 eventBusOption.RetryOnFailure(TimeSpan.FromSeconds(1));
             },"guest");

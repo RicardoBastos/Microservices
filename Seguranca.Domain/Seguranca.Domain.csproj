@@ -11,7 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+    <ProjectReference Include="..\Core.Infra\Core.Infra.csproj" />
     <ProjectReference Include="..\Core.RabbitMq\Core.RabbitMq.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Usuario\EventHandlers\" />
   </ItemGroup>
 
 </Project>

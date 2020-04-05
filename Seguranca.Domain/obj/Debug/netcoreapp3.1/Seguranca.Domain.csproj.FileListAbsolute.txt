@@ -25,7 +25,11 @@ C:\workspace\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.p
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.deps.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Seguranca.Domain.pdb
+C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.Domain.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.RabbitMq.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.Domain.pdb
+C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.Infra.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.csprojAssemblyReference.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Domain\obj\Debug\netcoreapp3.1\Seguranca.Domain.csproj.CoreCompileInputs.cache

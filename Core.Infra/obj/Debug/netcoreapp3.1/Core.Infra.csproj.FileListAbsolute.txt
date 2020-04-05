@@ -18,9 +18,9 @@ C:\workspace\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.csprojAssembl
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\bin\Debug\netcoreapp3.1\Core.Infra.deps.json
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\bin\Debug\netcoreapp3.1\Core.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\bin\Debug\netcoreapp3.1\Core.Infra.pdb
+C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.csprojAssemblyReference.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.csproj.CoreCompileInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.AssemblyInfoInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.AssemblyInfo.cs
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.pdb
-C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.csprojAssemblyReference.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Infra\obj\Debug\netcoreapp3.1\Core.Infra.csproj.CoreCompileInputs.cache

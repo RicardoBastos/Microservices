@@ -9939,7 +9939,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Core.Domain >= 1.0.0",
       "Core.RabbitMq >= 1.0.0",
       "Core.Web >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.0",
@@ -9977,9 +9976,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.Domain\\Core.Domain.csproj"
-            },
             "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj": {
               "projectPath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Core.RabbitMq\\Core.RabbitMq.csproj"
             },
