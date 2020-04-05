@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Core.Infra.Interface;
+using Microsoft.EntityFrameworkCore;
 using RH.Domain.Usuario;
 using RH.Domain.Usuario.Interfaces;
 using RH.Infra.Context;
@@ -24,7 +25,6 @@ namespace RH.Infra.Repository
             MongoDbContext dbContext = new MongoDbContext();
             dbContext.Usuarios.InsertOne(entity);
         }
-
 
     }
 }

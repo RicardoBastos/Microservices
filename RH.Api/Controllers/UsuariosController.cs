@@ -1,10 +1,13 @@
-﻿using Core.Domain.Bus;
+﻿using Core.Domain;
+using Core.Domain.Bus;
 using Core.Domain.Notifications;
 using Core.RabbitMq;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using RH.Domain.Usuario.Commands;
+using RH.Infra.Repository.Dapper;
 using System;
+using System.Threading.Tasks;
 
 namespace RH.Api.Controllers
 {
@@ -12,14 +15,15 @@ namespace RH.Api.Controllers
     public class UsuariosController : ApiController
     {
         private readonly IMediatorHandler Bus;
-
+        private readonly UsuarioDapperRepository _usuarioDapperRepository;
 
         public UsuariosController(IRabbitMQEventBus eventBus,
+            UsuarioDapperRepository usuarioDapperRepository,
             INotificationHandler<DomainNotification> notifications,
             IMediatorHandler bus):base(notifications,bus)
         {
             Bus = bus ?? throw new ArgumentNullException(nameof(IMediatorHandler));
-
+            _usuarioDapperRepository = usuarioDapperRepository ?? throw new ArgumentNullException(nameof(UsuarioDapperRepository));
         }
 
 
@@ -32,9 +36,10 @@ namespace RH.Api.Controllers
         }
 
         [HttpGet, Route("")]
-        public ActionResult<string> Get()
+        public async Task<Result> Get([FromQuery]string nome, [FromQuery]Paging paginacao)
         {
-            return "Usuarios RH";
+            var objRetorno = TratarQuery(await _usuarioDapperRepository.GetPaging(nome, paginacao));
+            return objRetorno;
         }
     }
 }

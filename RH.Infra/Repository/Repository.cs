@@ -2,11 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using RH.Infra.Context;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace RH.Infra.Repository
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IDapperRepository<TEntity> where TEntity : class
     {
         protected readonly RHContext Db;
         protected readonly DbSet<TEntity> DbSet;
@@ -27,7 +28,7 @@ namespace RH.Infra.Repository
             return DbSet.Find(id);
         }
 
-        public virtual IQueryable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return DbSet;
         }

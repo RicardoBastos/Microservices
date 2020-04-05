@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Core.Infra.Interface
@@ -7,7 +8,7 @@ namespace Core.Infra.Interface
     {
         void Add(TEntity obj);
         TEntity GetById(Guid id);
-        IQueryable<TEntity> GetAll();
+        IEnumerable<TEntity> GetAll();
         void Update(TEntity obj);
         void Remove(Guid id);
         int SaveChanges();

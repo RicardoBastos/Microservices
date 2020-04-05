@@ -470,3 +470,11 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.genruntimeconfig.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Dapper.Contrib.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Dapper.FluentMap.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Dapper.FluentMap.Dommel.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Dommel.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

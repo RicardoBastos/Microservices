@@ -12,6 +12,7 @@ using RH.Domain.Usuario.Interfaces;
 using RH.Infra.Context;
 using RH.Infra.EventSourcing;
 using RH.Infra.Repository;
+using RH.Infra.Repository.Dapper;
 using RH.Infra.Repository.EventSourcing;
 
 namespace RH.Infra.Ioc
@@ -34,6 +35,7 @@ namespace RH.Infra.Ioc
 
             // Infra - Data
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<UsuarioDapperRepository, UsuarioDapperRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<RHContext>();
 

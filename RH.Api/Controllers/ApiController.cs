@@ -1,6 +1,8 @@
-﻿using Core.Domain.Bus;
+﻿using Core.Domain;
+using Core.Domain.Bus;
 using Core.Domain.Notifications;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -60,6 +62,15 @@ namespace RH.Api.Controllers
             _mediator.EnviarEvent(new DomainNotification(code, message));
         }
 
+
+        protected Result TratarQuery(Result result)
+        {
+            if (result != null)
+            {
+                this.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
+            }
+            return result;
+        }
 
     }
 }
