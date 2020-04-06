@@ -1,8 +1,6 @@
 ﻿using MongoDB.Driver;
 using RH.Domain.Usuario;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RH.Infra.Context
 {

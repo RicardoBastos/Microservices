@@ -1,5 +1,4 @@
 ﻿using FluentValidation.Results;
-using Seguranca.Domain.Usuario.Commands;
 using Seguranca.Domain.Usuario.Validations;
 
 namespace Seguranca.Domain.Usuario.Commands

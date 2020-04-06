@@ -169,3 +169,4 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Api\obj\Debug\netcoreapp3.1\st
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Api\obj\Debug\netcoreapp3.1\Seguranca.Api.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Api\obj\Debug\netcoreapp3.1\Seguranca.Api.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Api\obj\Debug\netcoreapp3.1\Seguranca.Api.genruntimeconfig.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\Seguranca.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll

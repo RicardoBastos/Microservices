@@ -1,8 +1,6 @@
 ﻿using Core.Domain;
 using Core.Infra.Interface;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace RH.Domain.Usuario.Interface

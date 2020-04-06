@@ -799,7 +799,7 @@
           "build/Swashbuckle.AspNetCore.props": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/5.2.1": {
+      "Swashbuckle.AspNetCore.Swagger/5.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.1.4"
@@ -2684,10 +2684,10 @@
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/5.2.1": {
-      "sha512": "XK0aw63UeqiU4J2YbjE5opydQ/T2mJdY4fUODx3TGA6+vaQAJPpX7tL2nNoaxgbNP+EGl677oObvSdGyVuoyxQ==",
+    "Swashbuckle.AspNetCore.Swagger/5.3.1": {
+      "sha512": "t30DQqBoQBXn8QlVpSabKLu0pQzj4ifc7YGunZwfkFJiAdelw0SrqIuwbkgFR8PpvjxzPGD8a+rEW2/bbOBq1Q==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/5.2.1",
+      "path": "swashbuckle.aspnetcore.swagger/5.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2695,7 +2695,7 @@
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
-        "swashbuckle.aspnetcore.swagger.5.2.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.5.3.1.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
@@ -5027,7 +5027,8 @@
       "Ocelot >= 14.1.0",
       "Ocelot.Cache.CacheManager >= 14.1.0",
       "OcelotSwagger >= 0.0.5",
-      "Swashbuckle.AspNetCore >= 5.2.1"
+      "Swashbuckle.AspNetCore >= 5.2.1",
+      "Swashbuckle.AspNetCore.Swagger >= 5.3.1"
     ]
   },
   "packageFolders": {
@@ -5102,6 +5103,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.2.1, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[5.3.1, )"
           }
         },
         "imports": [

@@ -6,7 +6,6 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Seguranca.Domain.Usuario.CommandHandlers;
 using Seguranca.Domain.Usuario.Commands;
-using Seguranca.Domain.Usuario.Events;
 using Seguranca.Domain.Usuario.Interface;
 using Seguranca.Domain.Usuario.Interfaces;
 using Seguranca.Infra.Context;

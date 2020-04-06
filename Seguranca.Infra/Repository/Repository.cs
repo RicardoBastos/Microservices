@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Seguranca.Infra.Context;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Seguranca.Infra.Repository
 {

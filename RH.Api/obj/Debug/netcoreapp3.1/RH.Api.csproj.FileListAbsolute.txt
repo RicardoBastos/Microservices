@@ -478,3 +478,4 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\obj\Debug\netcoreapp3.1\RH.Api.genruntimeconfig.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\RH.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll

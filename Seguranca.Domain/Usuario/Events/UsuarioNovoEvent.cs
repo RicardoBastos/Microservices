@@ -1,7 +1,5 @@
-﻿using Core.Domain.Events;
-using Core.RabbitMq.Attributes;
+﻿using Core.RabbitMq.Attributes;
 using Core.RabbitMq.Events;
-using System;
 
 namespace Seguranca.Domain.Usuario.Events
 {

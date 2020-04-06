@@ -114,9 +114,6 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\bin\Debug\netcoreapp3.1\runt
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.csprojAssemblyReference.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.csproj.CoreCompileInputs.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.AssemblyInfoInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.AssemblyInfo.cs
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.RazorTargetAssemblyInfo.cache
@@ -126,3 +123,6 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\stat
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.genruntimeconfig.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ricar\OneDrive\Desktop\Empresa\Gateway.Api\obj\Debug\netcoreapp3.1\Gateway.Api.MvcApplicationPartsAssemblyInfo.cache

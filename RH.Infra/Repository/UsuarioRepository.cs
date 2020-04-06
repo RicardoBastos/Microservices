@@ -1,5 +1,4 @@
-﻿using Core.Infra.Interface;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using RH.Domain.Usuario;
 using RH.Domain.Usuario.Interfaces;
 using RH.Infra.Context;

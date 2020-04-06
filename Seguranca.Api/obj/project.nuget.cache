@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cs2k9cdQ7e9coNAYHvUUPPU2AIZa+Yxhs11DEZsXSDBg5NTPem1LkCr/lcWs4CzdX3nbeDE6i03XnN7aTwdS/A==",
+  "dgSpecHash": "NQGAoLMSd8jN0m5uRkCXT4ZlAMmWGc5aLi7I/lJ8wVN4Th/0PoEXdtrAS4T3AZB5gI1szrKtw5Tp1fKYNt8tdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Seguranca.Api\\Seguranca.Api.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.3\\microsoft.aspnetcore.jsonpatch.3.1.3.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
@@ -28,7 +29,7 @@
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.3.1\\microsoft.codeanalysis.csharp.workspaces.3.3.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.0\\microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.3.1\\microsoft.codeanalysis.workspaces.common.3.3.1.nupkg.sha512",
-    "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19269.1\\microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.2\\microsoft.entityframeworkcore.3.1.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.2\\microsoft.entityframeworkcore.abstractions.3.1.2.nupkg.sha512",

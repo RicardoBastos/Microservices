@@ -1,10 +1,7 @@
 ﻿using IdentityServer4.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace IdentityServer
 {
@@ -26,14 +23,24 @@ namespace IdentityServer
                 {
                     ClientId = "ClientId",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowAccessTokensViaBrowser = true,
                     ClientSecrets =
                     {
                         new Secret("ClientSecret".Sha256())
                     },
                     AllowedScopes = { "SampleService" },
-                    AccessTokenLifetime =3600
+                    AccessTokenLifetime =3600,
+                    RedirectUris = {"https://localhost:6001/o2c.html"},
                 }
+                //new Client {
+                //    ClientId = "demo_api_swagger",
+                //    ClientName = "Swagger UI for demo_api",
+                //    AllowedGrantTypes = GrantTypes.Implicit,
+                //    AllowAccessTokensViaBrowser = true,
+                //    RedirectUris = {"http://localhost:5001/oauth2-redirect.html"},
+                //    AllowedScopes = {"demo_api"}
             };
+        
         }
     }
 }

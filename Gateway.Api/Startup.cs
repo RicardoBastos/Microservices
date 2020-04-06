@@ -1,26 +1,15 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Ocelot.Middleware;
 using Ocelot.DependencyInjection;
-using System.IO;
-using Microsoft.AspNetCore.Http;
-using OcelotSwagger.Extensions;
-using OcelotSwagger.Configuration;
 using MMLib.Ocelot.Provider.AppConfiguration;
 using IdentityServer4.AccessTokenValidation;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Microsoft.OpenApi.Models;
 
 namespace Gateway.Api
 {
@@ -40,9 +29,37 @@ namespace Gateway.Api
 
             services.AddOcelot()
                   .AddAppConfiguration();
-               
 
-            services.AddSwaggerForOcelot(Configuration);
+            services.AddSwaggerForOcelot(Configuration)
+            .AddSwaggerGen(config=> {
+                config.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description ="JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' token",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                config.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            },
+                            Scheme = "oauth2",
+                            Name = "Bearer",
+                            In = ParameterLocation.Header,
+
+                        },
+                        new List<string>()
+                    }
+                });
+            });
 
             var authenticationProviderKey = "TestKey";
             Action<IdentityServerAuthenticationOptions> opt = o =>
@@ -55,6 +72,8 @@ namespace Gateway.Api
 
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(authenticationProviderKey, opt);
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

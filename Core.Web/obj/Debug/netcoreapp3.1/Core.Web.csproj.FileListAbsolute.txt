@@ -72,9 +72,9 @@ C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\bin\Debug\netcoreapp3.1\Core.In
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\bin\Debug\netcoreapp3.1\Core.RabbitMq.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\bin\Debug\netcoreapp3.1\RH.Domain.pdb
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csprojAssemblyReference.cache
-C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CoreCompileInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.AssemblyInfoInputs.cache
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.AssemblyInfo.cs
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CopyComplete
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.dll
 C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.pdb
+C:\Users\ricar\OneDrive\Desktop\Empresa\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CoreCompileInputs.cache

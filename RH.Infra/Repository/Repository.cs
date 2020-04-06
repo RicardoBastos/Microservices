@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using RH.Infra.Context;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace RH.Infra.Repository
 {

@@ -4,7 +4,6 @@ using Core.Infra.Interface;
 using Core.RabbitMq;
 using MediatR;
 using Seguranca.Domain.Usuario.Commands;
-using Seguranca.Domain.Usuario.Events;
 using Seguranca.Domain.Usuario.Interfaces;
 using System;
 using System.Threading;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1sKCkLfqMHxpZRMvMDij/tKRCFgnHhCoYP5BZaS7ZVgAqs4oKawydX2A9XvivnDymDPxLyPRXuITmZP4fqjs2g==",
+  "dgSpecHash": "IUre+GBA8KiG/mngfUAyu6Qmg9AtDW60N+ENL0ahr5Y2ytSTKni8lGdGSgc6T0y+raPlaTMpMvWd//gvdXi8eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricar\\OneDrive\\Desktop\\Empresa\\Gateway.Api\\Gateway.Api.csproj",
   "expectedPackageFiles": [
@@ -70,7 +70,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\swashbuckle.aspnetcore\\5.2.1\\swashbuckle.aspnetcore.5.2.1.nupkg.sha512",
-    "C:\\Users\\ricar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.2.1\\swashbuckle.aspnetcore.swagger.5.2.1.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.1\\swashbuckle.aspnetcore.swagger.5.3.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.2.1\\swashbuckle.aspnetcore.swaggergen.5.2.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.2.1\\swashbuckle.aspnetcore.swaggerui.5.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

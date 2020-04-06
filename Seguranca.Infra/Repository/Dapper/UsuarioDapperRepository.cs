@@ -1,13 +1,11 @@
 ﻿using Core.Domain;
 using Core.Infra;
-using Core.Infra.Interface;
 using Dapper;
 using Microsoft.Extensions.Configuration;
 using Seguranca.Domain.Usuario;
 using Seguranca.Domain.Usuario.Interface;
 using Seguranca.Domain.Usuario.Queries;
 using System;
-using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Text;

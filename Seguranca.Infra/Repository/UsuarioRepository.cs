@@ -1,5 +1,4 @@
-﻿using Core.Infra.Interface;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Seguranca.Domain.Usuario;
 using Seguranca.Domain.Usuario.Interfaces;
 using Seguranca.Infra.Context;

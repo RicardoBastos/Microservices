@@ -20,11 +20,11 @@
         }
       ],
       "UpstreamPathTemplate": "/rh/{everything}",
-      "SwaggerKey": "rh"
-      //"AuthenticationOptions": {
-      //  "AuthenticationProviderKey": "TestKey",
-      //  "AllowedScopes": []
-      //}
+      "SwaggerKey": "rh",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
       //"RateLimitOptions": {
       //  "ClientWhitelist": [],
       //  "EnableRateLimiting": true,
@@ -48,11 +48,11 @@
         }
       ],
       "UpstreamPathTemplate": "/seguranca/{everything}",
-      "SwaggerKey": "seguranca"
-      //"AuthenticationOptions": {
-      //  "AuthenticationProviderKey": "TestKey",
-      //  "AllowedScopes": []
-      //}
+      "SwaggerKey": "seguranca",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
       //"RateLimitOptions": {
       //  "ClientWhitelist": [],
       //  "EnableRateLimiting": true,
